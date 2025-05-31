@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "886226095303",
+    "project_id": "kosgosexample",
+    "storage_bucket": "kosgosexample.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886226095303:android:d8186ee8091c0e66a982e2",
+        "android_client_info": {
+          "package_name": "ru.kosgos.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo7fSd7RhDSpAgOpJSfEuPmeWY5t8mNpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
