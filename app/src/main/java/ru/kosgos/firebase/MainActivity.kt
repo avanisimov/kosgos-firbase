@@ -98,6 +98,12 @@ class MainActivity : ComponentActivity() {
                                 }) {
                                 Text(text = "createNotification")
                             }
+                            Button(
+                                onClick = {
+                                    startActivity(Intent(this@MainActivity, AlertDetails::class.java))
+                                }) {
+                                Text(text = "Video")
+                            }
                         }
 
                     }
