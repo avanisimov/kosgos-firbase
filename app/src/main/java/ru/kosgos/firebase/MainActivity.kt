@@ -104,6 +104,13 @@ class MainActivity : ComponentActivity() {
                                 }) {
                                 Text(text = "Video")
                             }
+                            Button(
+                                onClick = {
+                                    val intent = Intent(this@MainActivity, AudioPlayerService::class.java)
+                                    ContextCompat.startForegroundService(this@MainActivity, intent)
+                                }) {
+                                Text(text = "Audio")
+                            }
                         }
 
                     }
